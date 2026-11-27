@@ -15,7 +15,7 @@ public class MyWebApplication {
 
     @GetMapping("/")
     public String home() {
-        return "index.jsp";
+        return "forward:/index.jsp";
     }
 }
 
